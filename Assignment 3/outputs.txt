@@ -1,0 +1,27 @@
+OUTPUT 1:
+
+c:\Program Files\nodejs>node restaurantManager.js
+---------------
+Restaurant Names:
+Dominos
+KFC
+PizzaHut
+BarbequeNation
+RollOver
+----------------
+Filtered By City:
+Delhi
+
+OUTPUT 2:
+c:\Program Files\nodejs>node restaurantManager1.js
+---------------
+Restaurant Names:
+Dominos
+KFC
+PizzaHut
+BarbequeNation
+RollOver
+----------------
+Filtered By City:
+Bangalore
+Bangalore

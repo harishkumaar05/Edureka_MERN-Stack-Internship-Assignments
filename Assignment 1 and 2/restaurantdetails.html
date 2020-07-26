@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Restaurant Details</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href=icon1.jpg rel="icon"/>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+
+  <!---->
+<style>
+span{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    margin: 6px;
+    background-color: white;
+    font-size: 40px;
+    color: red;
+    text-align: center;
+}
+.container .btn{
+ 
+  position: absolute;
+   top: 80%;
+  left: 80%;
+  
+  transform: translate(-50%, -150%);
+  -ms-transform: translate(-50%, -50%); 
+  object-fit: contain;
+  background-color:transparent;
+  
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 2px;
+   font-weight:600 ;
+   border: 1px solid black;
+   height: 48px;
+  width: 300px;
+  
+  font-size: 16px;
+  font-family: sans-serif;
+   font-weight: 600;
+  box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+  color: white;
+  position: absolute;
+  
+}
+.container .btn:hover{
+  background-color: rgb(228, 43, 43);
+}
+
+</style>
+</head>
+<body>
+  <!--Title bar container-->
+<div class="container-fluid-lg p-3 my-3  bg-danger text-white">
+ 
+    <span class="rounded-circle  ml-lg-5 font-weight-bold">e!</span>
+    
+    <p class="d-lg-inline-block float-lg-right p-lg-1 mt-4 border border-0-white mx-auto" >Create an account</p>
+    <p class="d-lg-inline-block float-lg-right pr-5  pt-4 mt-1" >Login</p>
+    
+
+</div>
+
+<!--Image Conatianer-->
+
+<div class="container">
+    <img class="img-fluid-thumbnail mx-auto d-block border-0-white" src="food1.png" alt="foodimage" width="1130px" height="350px"style="margin-top:50px; display:inline-block"/>
+    <button class="btn">Click to see Image Gallery</button>
+</div>
+
+ <!-- Nav tabs -->
+
+<div class="container mt-3">
+    <h2 style="color: #192f60;font-size: 30px;
+    font-weight: 600;">The Big Chill Cakery</h2>
+    <br>
+  
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a class="nav-link active" data-toggle="tab" href="#Overview" style="font-size: 18px;  font-weight: 600;color:#9b145e ;">Overview</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#Contact" style="font-size: 18px;  font-weight: 600;color:#9b145e ;">Contact</a>
+      </li>
+    
+    </ul>
+  
+ 
+  <!-- Tab panes -->
+
+  <div class="tab-content">
+    <div id="Overview" class="container tab-pane active"><br>
+      
+      <h3 style="color: #192f60;">About this Place<br></h4>
+      <h4 style="color: #192f60;">Cuisine<br></h2>
+     <p style="color: #9b145e;">Bakery,FastFood<br></p>
+      <h4 style="color: #192f60;">Average Cost<br></h2>
+      <p style="color: #9b145e;">$700 for two peoples (approx.)<br></p>
+    </div>
+    <div id="Contact" class="container tab-pane fade"><br>
+      <h5 style="color: #192f60;">Phone Number<br></h5> 
+      <h6 style="color: #9b145e;">+91 114004566<br></h6> 
+      <h5 style="color: #192f60;"> The Big Chill Cakery<br></h5>
+      <h6 style="color: #9b145e;"> Shop 1,Plot D,Samruddi Complex,Chincholi,<br></h6>
+       <h6 style="color: #9b145e;">Mumbai-400002,Maharastra</h6>
+    </div>
+    
+  </div>
+</div>
+
+</body>
+</html>
