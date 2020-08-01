@@ -1,0 +1,19 @@
+{
+  "name": "restaurantapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "restaurantapi.js",
+  "scripts": {
+    "start": "node restaurantapi.js",
+    "dev": "nodemon restaurantapi.js"
+  },
+  "keywords": [
+    "api"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.5.9"
+  }
+}
