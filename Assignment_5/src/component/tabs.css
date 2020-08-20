@@ -1,0 +1,18 @@
+.react-tabs__tab--selected {
+    background: #fff;
+    border:none;
+    color:#192f60;
+    border-bottom: 3px solid #ce0505;
+}
+.react-tabs__tab-list {
+    border-bottom: 2px solid #dee2e6;
+    margin: 0 0 10px;
+    padding: 0;
+}
+.cust-tab{
+    font-family: 'Poppins';
+    color:#192f60;
+}
+.react-tabs__tab-panel{ animation-name: fadeIn; animation-duration: 250ms; animation-timing-function: linear; }
+
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
