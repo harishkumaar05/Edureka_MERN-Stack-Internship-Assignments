@@ -1,0 +1,76 @@
+.logo:active{
+    transform: scale(0.98); 
+}
+#logo-back{
+    height: 55px;
+    width:55px;
+    border-radius: 50%;
+    background-color:#ffffff;
+}
+#logo_text{
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    font-size: 33px;
+    color: #ce0505;
+    line-height: 50px;
+    left:15px;
+}
+.nav-custom{
+    background-color: #ce0505;
+}
+.nav-contain-custom{
+    padding: 0;
+}
+.btn-custom{
+    border-color: white;
+    background-color: #ce0505;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    padding-left:20px;
+    padding-right:20px;
+    outline:none;
+    box-shadow: none;
+
+}
+ .btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+.btn:active { 
+    transform: scale(0.98); 
+    /* Scaling button to 0.98 to its original size */ 
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24); 
+    /* Lowering the shadow */ 
+} 
+
+#Login{
+    color:#ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.56;
+    letter-spacing: normal;
+    position: relative;
+    text-decoration: none;
+}
+#Login:active{
+    transform: scale(0.98); 
+}
+.tog-cust{
+    border:1px solid #ffffff;
+}
+.tog-cust:focus{
+    outline: 0;
+    box-shadow: none;
+}
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255,1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+  }

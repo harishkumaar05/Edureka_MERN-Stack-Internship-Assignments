@@ -1,0 +1,23 @@
+.nav-tabs .nav-link:hover {
+    border: none;
+    border-bottom: 2px solid #ce0505;
+    border-radius: 3%;
+  }
+
+  .nav-tabs {
+    border-bottom: 2px solid #dee2e6;
+  }
+
+  .nav-tabs .nav-link {
+    font-family: 'Poppins', sans-serif;
+    color: #192f60;
+    font-size: 18px;
+    border: none;
+  }
+
+  .nav-tabs .nav-link.active {
+    color: #192f60;
+    background-color: #fff;
+    border: none;
+    border-bottom: 2px solid #ce0505;
+  }

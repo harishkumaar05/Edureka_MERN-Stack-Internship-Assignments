@@ -1,0 +1,33 @@
+#image{
+    object-fit: cover; 
+    height:400px;
+    width:100%;
+    max-width:100%;
+    display:block;
+    object-position: 0% 30%
+}
+.cust-butt{
+    background-color: #ffffff;
+}
+.container .btn {
+    position: absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background: rgba(255, 255, 255, 0.6);
+    font-family: Poppins;
+    color: #192f60;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+  }
+   @media (min-width:576px){
+       .container .btn {
+           top:90%;
+           left:85%;
+       }
+   }
